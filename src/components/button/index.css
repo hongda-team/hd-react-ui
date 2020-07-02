@@ -1,3 +1,47 @@
-.btn {
-  height: 50px;
+.hd-btn {
+  font-size: 14px;
+  height: 32px;
+  border: none;
+  outline: none;
+  background: none;
+  border-radius: 2px;
+  border: 1px solid #d9d9d9;
+  padding: 4px 15px;
+  color: rgba(0, 0, 0, .5);
+}
+
+.hd-btn-primary {
+  background: #1890ff;
+  color: #ffffff;
+  border: none;
+}
+
+.hd-btn-dashed {
+  border: 1px dashed #d9d9d9
+}
+
+.hd-btn-text {
+  border: none;
+}
+
+.hd-btn-link {
+  border: none;
+  color: #1890ff;
+}
+
+.hd-btn-middle {
+  height: 30px;
+  padding: 4px 15px;
+}
+
+.hd-btn-large {
+  font-size: 16px;
+  height: 40px;
+  padding: 6px 15px;
+}
+
+.hd-btn-small {
+  font-size: 14px;
+  height: 24px;
+  padding: 0 7px;
 }
