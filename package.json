@@ -1,7 +1,7 @@
 {
   "name": "hd-react-ui",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "description": "A Design UI library for React",
   "main": "lib/index.js",
   "module": "esm/index.js",
