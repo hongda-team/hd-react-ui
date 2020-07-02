@@ -9,16 +9,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hongda-team/hongda-react-ui.git"
+    "url": "git+https://github.com/hongda-team/hd-react-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/hongda-team/hongda-react-ui/issues"
+    "url": "https://github.com/hongda-team/hd-react-ui/issues"
   },
   "files": [
     "esm",
     "lib"
   ],
-  "homepage": "https://github.com/hongda-team/hongda-react-ui#readme",
+  "homepage": "https://github.com/hongda-team/hd-react-ui#readme",
   "keywords": [
     "hongda-team",
     "hongda-react-ui",
