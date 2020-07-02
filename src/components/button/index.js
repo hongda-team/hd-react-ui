@@ -4,13 +4,7 @@ import './index.css'
 
 class Button extends Component {
   render() {
-    const {
-      children,
-      type,
-      size,
-      disabled,
-      handleClick
-    } = this.props
+    const { children, type, size, disabled, handleClick } = this.props
     const className = classnames({
       'hd-btn': true,
       'hd-btn-large': size === 'large',
@@ -18,7 +12,7 @@ class Button extends Component {
       'hd-btn-primary': type === 'primary',
       'hd-btn-dashed': type === 'dashed',
       'hd-btn-text': type === 'text',
-      'hd-btn-link': type === 'link'
+      'hd-btn-link': type === 'link',
     })
 
     return (
@@ -34,7 +28,9 @@ Button.defauleProps = {
   type: 'primary',
   size: 'middle',
   disabled: false,
-  handleClick: () => { return null }
+  handleClick: () => {
+    return null
+  },
 }
 
 export default Button
