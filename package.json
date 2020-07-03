@@ -1,6 +1,6 @@
 {
   "name": "hd-react-ui",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "private": false,
   "description": "A Design UI library for React",
   "main": "lib/index.js",
@@ -18,7 +18,7 @@
     "esm",
     "lib"
   ],
-  "homepage": "",
+  "homepage": "https://github.com/hongda-team/hd-react-ui#readme",
   "keywords": [
     "hongda-team",
     "hongda-react-ui",
@@ -99,8 +99,8 @@
     "test": "node scripts/test.js",
     "build:commonjs": "cross-env BABEL_OUTPUT=commonjs babel src/components --out-dir lib/ --ignore **/__tests__,**/__mocks__",
     "build:esm": "babel src/components --out-dir esm/ --ignore **/__tests__,**/__mocks__",
-    "copy-css:esm": "cpx \"src/components/**/*.css\" esm",
-    "copy-css:lib": "cpx \"src/components/**/*.css\" lib"
+    "copy-scss:esm": "cpx \"src/components/**/*.scss\" esm",
+    "copy-scss:lib": "cpx \"src/components/**/*.scss\" lib"
   },
   "eslintConfig": {
     "extends": "react-app"
