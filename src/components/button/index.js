@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import classnames from 'classnames'
-import './index.css'
+import './index.scss'
 
 class Button extends Component {
   render() {
@@ -17,7 +17,7 @@ class Button extends Component {
 
     return (
       <button className={className} onClick={handleClick} disabled={disabled}>
-        {children}
+        {children ? children : 'Button'}
       </button>
     )
   }
