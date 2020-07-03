@@ -1,6 +1,6 @@
 {
   "name": "hd-react-ui",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "private": false,
   "description": "A Design UI library for React",
   "main": "lib/index.js",
@@ -80,6 +80,7 @@
     "react-app-polyfill": "^1.0.6",
     "react-dev-utils": "^10.2.1",
     "react-dom": "^16.13.1",
+    "react-motion": "^0.5.2",
     "resolve": "1.15.0",
     "resolve-url-loader": "3.1.1",
     "sass-loader": "8.0.2",

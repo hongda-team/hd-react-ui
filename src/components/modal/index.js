@@ -8,7 +8,7 @@ const show = (props) => {
   document.body.appendChild(div)
   const onClose = () => {
     ReactDOM.unmountComponentAtNode(div)
-    document.body.removeChild('div')
+    document.body.removeChild(div)
     if (typeof props.onClose === 'function') {
       props.onClose()
     }
